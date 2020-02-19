@@ -1,0 +1,261 @@
+/*主要放头部 侧边栏  底部样式*/
+/*1200 1080  1280 */
+/*顶部导航开始*/
+.top-nav{
+	height: 35px;
+	line-height: 34px;
+	/*border-bottom: 1px solid #ddd;*/
+}
+
+/*搜索样式开始*/
+.search_box{
+	/*盒子宽度根据内容撑宽  可以设置宽度高*/
+	display: inline-block;
+	padding-left: 190px;
+}
+.search{
+	border: 2px solid #ff2d52;
+	
+	
+/*内联元素会有3像素差距   给父级设置字体大小为0*/
+font-size: 0;	
+}
+.search-input{
+	border: 0;
+	height: 36px;
+	width: 430px;
+	background: url(../img/icon-search.png) no-repeat 10px center;
+}
+.search-btn{
+	/*a标签是行内元素  不能给宽高*/
+	display: inline-block;
+	height: 41px;
+	width: 80px;
+	background: #FF2D52;
+	color: #FFFFFF;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+}
+/*主导航样式开始*/
+.main-nav{
+	height:40px ;
+	line-height: 38px;
+	margin-top: 30px;
+}
+.classify-all{
+	position: relative;
+	width:200px ;
+}
+.classify-text{
+	background: #FF2D52;
+}
+.classify-all:hover .classify-text .classify-text{
+	background: #EC193E;
+}
+.classify-all .icon-fenlei{
+	vertical-align: -4px;
+	font-size: 18px;
+}
+
+.classify-lists li{
+	background: #FF2D52;
+	height: 51px;
+	line-height: 50px;
+	border-bottom:1px solid #EC193E ;
+	padding: 0 20px 0 30px;
+}
+.classify-lists li:hover{
+	background: #FF2D52;
+}
+.classify-all.icon-jiantou{
+	font-size: 7px;
+}
+.classify-lists{
+	/*根据已经定位的  最近的父级来定位*/
+	width: 100%;
+	position: absolute;
+	display: none;
+}
+/*:hover鼠标移入读取的样式  必须有上下级关系*/
+.classify-all:hover .classify-lists{
+	display: block;
+}
+.main-nav-list li{
+	float: left;
+	padding: 0 20px;
+}
+.main-nav-list li a{
+	color: #fff;
+}
+.main-nav-list li a:hover{
+	background: #EC193E;
+}
+
+/*二级分类*/
+.classify-two{
+	width:722px ;
+	height: 306px;
+	border: 1px solid #ff7011;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	display: none;
+	color: #333333;
+	padding: 10px;
+}
+.classify-lists li:hover .classify-two{
+	display: block;
+}
+.classify-two-lists{
+	width: 50%;
+	padding: 0px 20px;
+	/*background: red;*/
+	float: left;
+}
+.classify-two-lists .title{
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+}
+.classify-two-lists .lists{
+	line-height: 24px;
+}
+.classify-two-lists .lists a:hover{
+	color: #FF2D52;
+}
+/*文章内容开始*/
+/*文章内容头部开始*/
+.art-top{
+	line-height: 53px;
+	padding: 0 15px;
+}
+/*左边内容*/
+.article-left{
+	width: 959px;
+}
+
+.art-spece{
+	border: 1px solid #E2E2E2;
+	border-top: none;
+}
+.art-spece-first{
+	border-top: 1px solid #E2E2E2;
+}
+/*文章标题*/
+.art-title{
+	line-height: 50px;
+	border-bottom: 1px dashed #E2E2E2;
+}
+/*文本内容*/
+.art-all-content img{
+	width: 202px;
+	height: 153px;
+}
+.art-all-text a{
+	display: inline-block;
+	line-height: 30px;
+}
+
+/*右边内容*/
+.article-right{
+	width: 220px;
+	border: 1px solid #E2E2E2;
+}
+/*热门文章*/
+.article-right-title{
+	background: #fff9f5;
+	line-height: 36px;
+}
+.art-list li{
+	overflow: hidden;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 25px;
+}
+.art-list li:last-child{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+/*页码*/
+.page{
+	line-height: 60px;
+}
+.page a{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	border: 1px solid #E2E2E2;
+	text-align: center;
+	line-height: 32px;
+}
+.page a:nth-child(2){
+	background: #FF2D52;
+	color: #fff;
+}
+.page a:first-child{
+	display: inline-block;
+	width: 68px;
+	height: 32px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+	background: #F2F2F2;
+}
+.page a:last-child{
+	display: inline-block;
+	width: 68px;
+	height: 32px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+
+/*底部样式开始*/
+.footer{
+	border-top: 1px solid #FF2D52;
+}
+.safe-server{
+	margin: 40px 0;
+}
+.safe-server li{
+	float: left;
+	width: 20%;
+	padding-left: 50px;
+}
+.safe-server-icon{
+	width: 60px;
+	height: 60px;
+	font-size: 36px;
+	color: #FF2D52;
+	line-height: 60px;
+	text-align: center;
+	background: url(../img/circle.png);
+}
+.safe-server-cont{
+	padding: 10px 0;
+	padding-left: 70px;
+}
+.server-details{
+	height: 120px;
+}
+.server-details-list li{
+	padding-right: 132px;
+	float: left;
+}
+.contact{
+	width: 245px;
+	height: 100%;
+	border-left: 1px solid #dbdbdb;
+}
+.footer-bottom{
+	height: 60px;
+	line-height: 60px;
+	background: #343434;
+}
+.footer-bottom img{
+	vertical-align: middle;
+}

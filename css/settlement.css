@@ -1,0 +1,134 @@
+/*标题样式开始*/
+.check-title{
+	border-bottom: 1px solid #E2E2E2;
+}
+.check h2{
+	width: 109px;
+}
+.check h2:hover{
+	border-bottom: 2px solid #FF2D52;
+}
+/*标题样式结束*/
+
+/*选择收货地址*/
+.select-title{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.select-content{
+	border: 3px dashed #FF2D52;
+}
+.modification{
+	margin-left: 136px;
+}
+.modification:hover{
+	color: #FF2D52;
+}
+.select-content{
+	margin-left: 15px;
+	width: 265px;
+	height: 115px;
+}
+.first-select-content{
+	margin-left: 0px;
+}
+.select-add{
+	text-align: center;
+	vertical-align: 19px;
+}
+.select-add .add{
+	border-radius: 50%;
+	width: 30px;
+    height: 30px;
+    margin-top: 20px;
+   border: 1px solid #E2E2E2;
+   color: #FFFFFF;
+}
+.distribution{
+	margin-bottom: 15px;
+}
+.distribution-content a{
+	border: 1px solid #E2E2E2;
+	margin-right: 15px;
+	width: 109px;
+	height: 33px;
+	text-align: center;
+    line-height: 33px;
+}
+.distribution-content a:hover{
+	color: #FF2D52;
+	border: 1px solid #FF2D52;
+}
+
+.inventory-title{
+	padding: 10px  0;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+/*商品列表头部开始*/
+.inventory-t{
+	/*border: 1px solid red;*/
+}
+.t-left img{
+	width: 70px;
+	height: 70px;
+}
+.t-left-text{
+	display: inline-block;
+	width: 220px;
+	height: 36px;
+}
+.t-right li{
+	float: left;
+	line-height: 38px;
+	padding-right: 60px;
+    padding-left: 60px;
+}
+.c-right li{
+	float: left;
+	line-height: 18px;
+	padding-right: 51px;
+    padding-left: 60px;
+	text-align: center;
+}
+/*送货清单  单价  团购*/
+.t-group{
+	display: inline-block;
+	/*border: 1px solid #FF2D52;*/
+	width: 29px;
+	text-align: center;
+	color: #FF2D52;
+}
+/*优惠劵*/
+.coupon{
+	margin: 15px;
+	/*border: 1px solid;*/
+	width: 100%;
+	padding-right: 45px;
+}
+.coupon-title select{
+	width: 299px;
+	height: 32px;
+	border: 1px solid #E2E2E2;
+	color: #E2E2E2;
+}
+.adress{
+	margin: 15px;
+	margin-top: 200px;
+	padding-right: 45px;
+	border-bottom: 1px solid #E2E2E2;
+	border-top: 1px solid #E2E2E2;
+	height:90px;
+}
+.adress-right .payment-btn{
+	display: inline-block;
+	width: 161px;
+	height: 40px;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+

@@ -1,0 +1,468 @@
+.P-content1/*首页内容样式开始*/
+
+.content-top{
+	/*border: 1px solid #E2E2E2;*/
+}
+.content-top-nav{
+	border: 1px solid #e2e2e2;
+}
+.P-content1{
+	/*height: 558px;*/
+	padding:20px;
+	border: 1px solid #e2e2e2;
+	border-top: none;
+}
+/*首页内容左边样式开始*/
+.P-content1-left{
+	/*padding: 20px 0;*/
+	width: 424px;
+	border-right: 1px solid #E2E2E2;
+	/*border: 1px solid #E2E2E2;*/
+}
+.P-content1-left .list-all{
+	margin-top: 20px;
+}
+.P-content1-left img{
+	width: 404px;
+	height: 404px;
+}
+.P-content1-left .share .collect-btn{
+	margin-right: 33px;
+}
+.P-content1-left .list-all .list .btn-left,
+.P-content1-left .list-all .list .btn-right{
+	display: inline-block;
+	border: 1px solid #E2E2E2;
+	width: 25px;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	color:#E2E2E2 ;
+}
+.P-content1-left .list-all .list .btn-left:hover,
+.P-content1-left .list-all .list .btn-right:hover,
+.P-content1-left .share .collect-btn a:hover{
+	color: #EC193E;
+	cursor: pointer;
+}
+.P-content1-left .list li{
+	float: left;
+	padding: 5px;
+}
+.P-content1-left .list li a img:hover{
+	border: 2px solid red;
+}
+.P-content1-left .list li a img{
+	border: 2px solid transparent;
+	width: 55px;
+	height: 55px;
+}
+.P-content1-left .share{
+	padding-top: 78px;
+}
+.P-content1-left .share .share-list li{
+	float: left;
+	padding: 5px;
+}
+
+.P-content1-left .share .share-list li a img{
+	width: 17px;
+	height: 17px;
+}
+.P-content1-left .share .collect-btn{
+	padding: 8px 15px;
+	border: 1px solid #E2E2E2;
+}
+/*首页内容右边样式开始*/
+.P-content1-right{
+	border-left: none;
+	width: 716px;
+	padding: 20px 30px;
+}
+.P-content1-right .germany{
+	padding: 10px;
+}
+.P-content1-right .germany img{
+	border: 1px solid red;
+	border-radius: 50%;	
+}
+.P-content1-right .germany .word{
+	display: inline-block;
+	vertical-align: 10px;
+	margin-left: 10px;
+}
+.P-content1-right .group-all{
+	background: #fff9f5;
+	padding: 20px 43px;
+	margin-left: -48px;
+	width: 754px;
+	margin-top: 25px;
+}
+.P-content1-right .group span{
+	color: #ff6600;
+}
+.P-content1-right .group a{
+	padding: 3px;
+}
+.P-content1-right .optional{
+	margin-top: 25px;
+}
+.P-content1-right .optional img{
+	width:47px ;
+	height:47px;
+	margin-right: 10px;
+	vertical-align: -21px;
+}
+.P-content1-right .optional img:hover{
+	border-bottom-color:red ;
+	border: 2px solid #EC193E;
+}
+.P-content1-right .quantity .sub,
+.P-content1-right .quantity .plus{
+	width: 22px;
+	height: 27px;
+	background: #FFFFFF;
+	border: 1px solid #E2E2E2;
+}
+.P-content1-right .quantity .number-input{
+	width: 66px;
+	height: 27px;
+	text-align: center;
+	line-height: 27px;
+}
+.P-content1-right .btn-all{
+	margin: 38px 0 50px 40px;
+}
+.P-content1-right .btn-all a:hover{
+	color: #FFFFFF;
+}
+.P-content1-right .btn-all .join{
+	margin-right: 20px;
+	display: inline-block;
+	width: 164px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #E2E2E2;
+}
+.P-content1-right .btn-all .join:hover{
+	background: #fe7258;
+}
+.P-content1-right .buy{
+	padding: 10px 20px;
+	display: inline-block;
+	width: 122px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+.P-content1-right .buy:hover{
+	background: #FF2D52;
+}
+
+/*猜您喜欢*/
+.guess-all{
+	margin-top: 20px;
+	
+}
+.guess{
+	width: 220px;
+	border: 1px solid #E2E2E2;
+}
+.guess-title{
+	padding: 10px ;
+	background: #fff9f5;
+	border-bottom: 1px solid #E2E2E2;
+}
+.guess-lists .list{
+	border-bottom: 1px dashed #E2E2E2;
+}
+.guess-lists .list:last-child{
+	border: none;
+}
+.guess-lists .list img{
+	margin: 5px;
+	width: 64px;
+	height: 64px;
+}
+.guess-text{
+	display: inline-block;
+	width: 122px;
+	height: 35px;
+	margin: 5px;
+}
+.guess-text .text{
+	margin-bottom: 8px;
+}
+/*商品详情开始*/
+.commodity-details{
+	width: 962px;
+	border: 1px solid #E2E2E2;
+	margin-top: 20px;
+}
+.commodity-details .lists1{
+	
+	margin-left: 10px;
+}
+.commodity-details .lists1 li{
+	float: left;	
+}
+.commodity-details .lists1 li:last-child{
+	float: right;
+	padding-right: 10px;
+}
+.commodity-details .lists1 li a{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+}
+.commodity-details .lists1 li a:hover{
+	border-top: 1px solid #FF2D52;
+	
+}
+.commodity-details .lists1 li a:hover{
+	color: #FF2D52;
+}
+.commodity-details .lists2{
+	margin: 10px;
+	/*padding: 10px;*/
+}
+.commodity-details .lists2 li:first-child{
+	padding-left: 10px;
+}
+.commodity-details .lists2 li{
+	float: left;
+	padding-left: 100px;
+}
+.commodity-details img{
+	width: 100%;
+	height: 607px;
+}
+
+.evaluate-all{
+	width: 962px;
+	margin-left: 270px;
+	margin-top:20px ;
+}
+.evaluate{
+	position: relative;
+	border: 1px solid #E2E2E2;
+	height: 125px;
+}
+.good-evaluate{
+	width: 192px;
+	height: 12px;
+}
+.center-evaluate{
+	width: 12px;
+	height: 15px;
+}
+.publish{
+	margin-top: -25px;
+	padding: 40px 50px 0 50px;
+	width: 220px;
+	height: 100px;
+	border-left: 1px solid #E2E2E2;
+}
+.publish-btn{
+	margin-bottom: 11px;
+	width: 85px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+}
+
+/*隐藏输入框*/
+.none-com{
+	width: 745px;
+    height: 108px;
+	padding:  10px;
+	position: absolute;
+    left: 0;
+    top: 8px;
+    background: #FFFFFF;
+    /*display: none;*/
+}
+}
+.none-com-name{
+	padding-right: 10px;
+}
+.none-com textarea{
+	margin-left: 10px;
+height:72px;	
+width:660px;
+}
+.none-com img{ 
+	width: 55px;
+	height: 55px;
+	
+}
+/*全部评论*/
+.all{
+	border: 1px solid #E2E2E2;
+	margin-top: 20px;
+}
+.all .lists1 li{
+	float: left;
+}
+.all .lists1 li a{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+}
+.all .lists1 li a:hover{
+	border-top: 1px solid #FF2D52;
+	
+}
+.all .lists1 li a:hover{
+	color: #FF2D52;
+}
+.com .com-list img{
+	width:55px ;
+	height: 55px;
+}
+.com .com-list{
+	padding: 10px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.com .com-list:last-child{
+	border: none;
+}
+.com .com-list .com-text{
+	width: 863px;
+    padding-left: 11px;
+    padding-bottom: 10px;
+}
+.com .com-list .com-text .service{
+	border-top: 1px dashed #E2E2E2;
+    margin-top: 24px;
+}
+.com .com-list .com-text .text{
+	margin-top: 10px;
+	border-top: 1px dashed #E2E2E2;
+}
+
+.com-text .com-text-lists{
+	border-bottom: 1px dashed #E2E2E2;
+}
+.com-text .com-text-lists li{
+	padding-left: 10px;
+    padding-bottom: 10px;
+	float: left;
+	
+}
+.com-text .com-text-lists li img{
+	width:56px ;
+	height:56px ;
+	padding-top: 10px;
+}
+/*页码样式*/
+.page-content{
+	width: 962px;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+.page a{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+.page a:hover{
+	background: #FF2D52;
+}
+.page .page-btn{
+	width: 69px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+.page .page-btn:hover{
+	background: #E2E2E2;
+}
+/*温馨提示*/
+.warm-all{
+	width: 962px;
+	border: 1px solid #E2E2E2;
+	margin-left: 270px;
+	margin-top: 20px;
+}
+.warm-content{
+	border-bottom: 1px solid #E2E2E2;
+	padding: 10px;
+}
+.warm{
+	margin: 10px;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-left: 1px solid #E2E2E2;
+}
+.warm-btn{
+	
+	display: inline-block;
+	width: 85px;
+	height: 30px;
+	border: 1px solid #E2E2E2;
+	text-align: center;
+	line-height: 30px;
+}
+.warm-btn:hover{
+	background: #FF2D52;
+	color: #FFFFFF;
+}
+
+/*销售记录*/
+.tab-sell{
+	border: 1;
+	width: 962px;
+	border: 1px solid #E2E2E2;
+	margin: 10px 0;
+	margin-left: 270px;
+	text-align: center;
+	line-height: 40px;
+}
+.tab-title th{
+	padding-left: 10px;
+	border-bottom: 1px solid #E2E2E2;
+}
+.tab-title2 th{
+	border-bottom: 1px solid #E2E2E2;
+}
+.tab-sell tr:first-child{
+	background: #fff9f5;
+	text-align: left;
+	margin-left: 10px;
+}
+.tab-sell tr td{
+	border-bottom: 1px dashed #E2E2E2;
+}
+.act-recommend{
+	width: 962px;
+	border: 1px solid #E2E2E2;
+	margin-left: 270px;
+	margin-bottom: 20px;
+}
+.act-recommend-title{
+	background:#fff9f5 ;
+	border-bottom: 1px solid #E2E2E2;
+}
+
+.act-recommend-lists li{
+	width: 20%;
+	float: left;
+}
+.act-recommend-lists li .like-text{
+	width: 172px;
+	height: 33px;
+}

@@ -1,0 +1,172 @@
+.group-banner{
+	height: 296px;
+	background:url(../img/group-banner.png) no-repeat center
+}
+
+/*小标题 begin*/
+.group-title a{
+	display: inline-block;
+	padding-right: 34px;
+}
+.group-title a:last-child{
+	padding-right: 0;
+}
+.group-title a.on,.train-l li.active{
+	color: #FF2D52;
+	cursor: pointer;
+}
+
+/*排列顺序列表 begin*/
+.train{
+	background: #ededed;
+	border: 1px solid #E2E2E2;
+}
+.train-l li{
+	padding-right: 10px;
+	float: left;
+}
+/*排列顺序*/
+.train-l .first a{
+	display: inline-block;
+	line-height: 22px;
+	width: 60px;
+    text-align: center;
+}
+/*排列顺序鼠标点上去的效果*/
+.train-l .first a:hover{
+    background: #ff2d50;    
+    color: #fff;
+    cursor: pointer;
+}
+/*右边*/
+.train-r{
+	width: 295px;
+}
+.train-input{
+	background: #FFF;
+	background: url(../img/icon-search.png) no-repeat 150px;
+}
+
+.train-r-p .train-l-btn,.train-r-btn{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border: 1px solid #E2E2E2;
+	line-height: 13px;
+}
+/*已抢完*/
+.take-up{
+	width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    line-height: 78px;
+    background: grey;
+    opacity: 0.8;
+    text-align: center;
+    position: absolute;
+    left: 34%;
+    top: 23%;
+    color: #fff;
+}
+/*商品列表*/
+.group-lists .list .active{
+	width: 235px;
+    padding: 10px;
+    border: 2px solid #FF2D50;
+    line-height: 310px;
+    padding: 0;
+    position: relative;
+    height: 310px;
+    position: absolute;
+    left: 1px;
+    top: 0;
+    display: none;
+}
+.group-lists .list:hover .active{
+	display: block;
+}
+.group-lists .list .active .action{
+	display: inline-block;
+    width: 233px;
+    height: 30px;
+    background: #ff2d52;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+}
+/*当鼠标移上去时的效果*/
+/*.group-lists .action{
+	
+}*/
+.group-lists li{
+	position: relative;
+	width: 20%;
+	padding: 10px;
+	/*border: 1px solid #E2E2E2;*/
+	float: left;
+}
+/*.list-box{
+	border: 1px solid #E2E2E2;
+}*/
+.list-box{
+	position: relative;
+}
+.list-box img{
+	width: 100%;
+	height: 210px;
+}
+.list-box p{
+	height: 34px;
+}
+/*进度条*/
+.group-progress{
+	width: 60px;
+    height: 8px;
+    border: 1px solid #ff92a5;
+    border-radius: 2px;
+    display: inline-block;
+}
+.progress{
+	width: 50%;
+    height: 100%;
+    background: #ff92a5;
+}
+.group-progress-text{
+	color: #ff92a5;
+}
+
+/*页码样式*/
+.page-content{
+	width: 962px;
+    margin-left: 270px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+.page a{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+.page a:hover{
+	background: #FF2D52;
+}
+.page .page-btn{
+	width: 69px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+.page .page-btn:hover{
+	background: #E2E2E2;
+}

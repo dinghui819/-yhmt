@@ -1,0 +1,230 @@
+.top-nav {
+	height: 35px;
+	line-height: 34px;
+	/*border-bottom: 1px solid #ddd;*/
+}
+.banner-img{
+	margin-top: 33px;
+	margin-bottom: 100px;
+}
+.banner-img img{
+	position: relative;
+	height: 476px;
+	width: 100%;
+}
+/*登录*/
+.resiget{
+	position: relative;
+}
+/*注册和登录的公共部分*/
+.register,.login{
+	background: #fff;
+	padding: 20px;
+	z-index: 14;
+}
+.login{
+	width: 346px;
+	height: 359px;
+	position: absolute;
+	bottom: 59px;
+	right: 150px;
+	display: none;
+}
+.login-top{
+	line-height: 26px;
+}
+/*立即注册*/
+.login-top a span{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 14px;
+}
+/*登录提示*/
+.login-tootip{
+	border: 1px solid #FF2D52;
+	background: #FFF9F5;
+	line-height: 25px;
+}
+.login-tootip span{
+	padding-left: 9px;
+	padding-right: 19px;
+}
+/*用户输入框*/
+.user{
+	margin-bottom: 15px;
+	width: 100%;
+	line-height: 38px;
+	border: 1px solid #E2E2E2;
+	position: relative;
+}
+.user input,.user-phone input{
+	border: none;
+	line-height: 37px;
+	border-left: 1px solid #E2E2E2;
+}
+.self-login input{
+	vertical-align: -2px;
+}
+.login-btn{
+	display: inline-block;
+	line-height: 36px;
+	text-align: center;
+	width: 100%;
+}
+/*使用第三方登录*/
+.three a:first-child{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: dodgerblue;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+}
+.three a:nth-child(2){
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: #7bd173;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+}
+.three a:last-child{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background: #f77078;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+}
+
+/*注册begin*/
+.register{
+	width: 348px;
+	height: 419px;
+	position: absolute;
+	bottom: 30px;
+	right: 152px;
+	z-index: 14;
+	
+}
+/*注册提示的样式*/
+label.error{
+	width: 179px;
+	height: 20px;
+	color: red;
+	position: absolute;
+	top: 38px;
+	line-height: 20px;
+}
+.register-top a{
+	color: #FF2D52;
+	cursor: pointer;
+}
+.register-top a span{
+	color: black;
+}
+
+/*请输入你的手机号*/
+.user-phone{
+	width: 100%;
+	line-height: 38px;
+	border: 1px solid #E2E2E2;
+}
+.suggest-phone{
+	color: darkgray;
+}
+/*输入验证码*/
+.verify{
+	width: 100%;
+	height: 39px;
+}
+.s-verify{
+	width: 192px;
+	height: 100%;
+	line-height: 39px;
+	border: 1px solid #E2E2E2;
+}
+.s-verify input{
+	/*height: 100%;*/
+	border: none;
+	width: 80%;
+}
+/*注册按钮*/
+.verify-btn{
+	display: inline-block;
+	line-height: 38px;
+	width: 108px;
+}
+.verify-btn.disabled{
+	background: #E2E2E2;
+	cursor: not-allowed;/*是一个红色圈加一个斜杠，表示禁止的意思*/
+}
+/*底部样式开始*/
+
+.footer {
+	border-top: 1px solid #FF2D52;
+}
+
+.safe-server {
+	margin: 40px 0;
+}
+
+.safe-server li {
+	float: left;
+	width: 20%;
+	padding-left: 50px;
+}
+
+.safe-server-icon {
+	width: 60px;
+	height: 60px;
+	font-size: 36px;
+	color: #FF2D52;
+	line-height: 60px;
+	text-align: center;
+	background: url(../img/circle.png);
+}
+
+.safe-server-cont {
+	padding: 10px 0;
+	padding-left: 70px;
+}
+
+.server-details {
+	height: 120px;
+}
+
+.server-details-list li {
+	padding-right: 117px;
+	float: left;
+}
+
+.contact {
+	width: 245px;
+	height: 100%;
+	border-left: 1px solid #dbdbdb;
+}
+
+.footer-bottom {
+	height: 60px;
+	line-height: 60px;
+	background: #343434;
+}
+
+.footer-bottom img {
+	vertical-align: middle;
+}
+

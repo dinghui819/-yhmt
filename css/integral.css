@@ -1,0 +1,473 @@
+/*主要放头部 侧边栏  底部样式*/
+/*1200 1080  1280 */
+/*顶部导航开始*/
+.top-nav{
+	height: 35px;
+	line-height: 34px;
+	/*border-bottom: 1px solid #ddd;*/
+}
+
+/*搜索样式开始*/
+.search_box{
+	/*盒子宽度根据内容撑宽  可以设置宽度高*/
+	display: inline-block;
+	padding-left: 190px;
+}
+.search{
+	border: 2px solid #ff2d52;
+	
+	
+/*内联元素会有3像素差距   给父级设置字体大小为0*/
+font-size: 0;	
+}
+.search-input{
+	border: 0;
+	height: 36px;
+	width: 430px;
+	background: url(../img/icon-search.png) no-repeat 10px center;
+}
+.search-btn{
+	/*a标签是行内元素  不能给宽高*/
+	display: inline-block;
+	height: 41px;
+	width: 80px;
+	background: #FF2D52;
+	color: #FFFFFF;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+}
+/*主导航样式开始*/
+.main-nav{
+	height:40px ;
+	line-height: 38px;
+	margin-top: 30px;
+}
+.classify-all{
+	position: relative;
+	width:200px ;
+}
+.classify-text{
+	background: #FF2D52;
+}
+.classify-all:hover .classify-text .classify-text{
+	background: #EC193E;
+}
+.classify-all .icon-fenlei{
+	vertical-align: -4px;
+	font-size: 18px;
+}
+.classify-lists{
+	z-index: 14;
+}
+.classify-lists li{
+	background: #FF2D52;
+	height: 51px;
+	line-height: 50px;
+	border-bottom:1px solid #EC193E ;
+	padding: 0 20px 0 30px;
+}
+.classify-lists li:hover{
+	background: #FF2D52;
+}
+.classify-all.icon-jiantou{
+	font-size: 7px;
+}
+.classify-lists{
+	/*根据已经定位的  最近的父级来定位*/
+	width: 100%;
+	position: absolute;
+	display: none;
+}
+/*:hover鼠标移入读取的样式  必须有上下级关系*/
+.classify-all:hover .classify-lists{
+	display: block;
+}
+.main-nav-list li{
+	float: left;
+	padding: 0 20px;
+}
+.main-nav-list li a{
+	color: #fff;
+}
+.main-nav-list li a:hover{
+	background: #EC193E;
+}
+
+/*二级分类*/
+.classify-two{
+	width:722px ;
+	height: 306px;
+	border: 1px solid #ff7011;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	display: none;
+	color: #333333;
+	padding: 10px;
+}
+.classify-lists li:hover .classify-two{
+	display: block;
+}
+.classify-two-lists{
+	width: 50%;
+	padding: 0px 20px;
+	/*background: red;*/
+	float: left;
+}
+.classify-two-lists .title{
+	line-height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 1px solid #ccc;
+}
+.classify-two-lists .lists{
+	line-height: 24px;
+}
+.classify-two-lists .lists a:hover{
+	color: #FF2D52;
+}
+
+/*banner开始*/
+.banner-all{
+	background: #dfdfdf;
+	height: 396px;
+}
+.banner-content{
+	position: relative;
+}
+/*个人信息*/
+.myInfo{
+	width: 272px;
+	height: 322px;
+	background: #fff;
+	position: absolute;
+	top:30px;
+	left: 20px;
+	/*padding: 30px 5px 40px 20px;*/
+}
+/*头像*/
+.head a{
+	display: block;
+	text-align: center;
+}
+/*用户相关信息*/
+.headtext{
+	padding: 10px;
+}
+/*注册用户进度条*/
+.head-progress{
+	width: 100px;
+	height: 14px;
+	background: #E2E2E2;
+}
+.gross{
+	width: 20px;
+	height: 14px;
+	background: #FF2D52;
+}
+/*签到按钮*/
+.sign{
+	width: 62px;
+	height: 26px;
+	line-height: 26px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 10px;
+}
+/*我的积分*/
+.jifen{
+	background: #ffe0e5;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+
+/*轮播*/
+.banner-slide img{
+	width: 680px;
+	height: 396px;	
+	position: absolute;
+	left: 300px;
+}
+/*优惠劵兑换*/
+/*标题*/
+.coupons-title{
+	/*border-bottom: 1px solid #E2E2E2;*/
+}
+
+/*内容开始*/
+.coupons-content{
+	border: 1px solid #E2E2E2;
+	border-right: none;
+}
+.coupons-content li{
+	border: 1px solid #E2E2E2;
+	background: #fff9f5;
+	width: 24%;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+/*圆*/
+.cirle{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	border: 1px solid #E2E2E2;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	transform: rotate(45deg);
+	position: absolute;
+	left: -16px;
+    top: 75px;
+	background: #fff;
+}
+.cirletwo{
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	border: 1px solid #E2E2E2;
+	border-bottom-color: transparent;
+	border-right-color: transparent;
+	transform: rotate(-45deg);
+	position: absolute;
+	left: 263px;
+    top: 75px;
+	background: #fff;
+}
+/*优惠劵￥5*/
+.conversion-top .money{
+	display: inline-block;
+}
+.conversion-top-text{
+	display: inline-block;
+	vertical-align: -14px;
+}
+.conversion-bottom{
+	text-align: center;
+	border-top: 1px dashed #E2E2E2;
+}
+/*50积分兑换*/
+.score{
+	display: inline-block;
+	border-radius: 20px;
+	background: #ff92a5;
+	color: #fff;
+	width: 144px;	
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+}
+/*限时兑换*/
+.coupons-list{
+	border: 1px solid #E2E2E2;
+	padding: 15px 10px;
+}
+.coupons-list li{
+	width: 20%;
+	float: left;
+	padding: 0 8px;
+}
+.coupons-list li .border{
+	border: 1px solid transparent;
+}
+.coupons-list li .border:hover{
+		border: 1px solid #FF2D52;
+}
+.coupons-list li .cont{
+	border: 1px solid #E2E2E2;
+	background: #fff9f5;
+	/*width: 16%;*/
+	/*float: left;*/
+	/*margin-right: 10px;*/
+}
+.coupons-list li .cont:hover{
+	border: 1px solid #FF2D52;
+		
+}
+
+/*限时兑换图片*/
+.conversion img{
+	width: 100%;
+	height: 100%;
+}
+/*限时兑换文本*/
+.bottom-text{
+	text-align: center;
+}
+.bottom-text .text{
+	font-size: 14px;
+    font-weight: bold;
+}	
+/*积分兑换按钮*/
+.grand{
+	display: inline-block;
+	border-radius: 5px;
+	background: #FF2D52;
+	color: #fff;
+	width: 148px;	
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	
+}
+/*积分兑完按钮*/
+.grand-end{
+	background: darkgray;
+	display: inline-block;
+	border-radius: 5px;
+	color: #fff;
+	width: 148px;	
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+}
+/*精品兑换*/
+.JP-list{
+	border-bottom: none;
+}
+.JP2-list{
+	border-top: none;
+	margin-bottom: 20px;
+}
+
+/*底部样式开始*/
+.footer{
+	border-top: 1px solid #FF2D52;
+}
+.safe-server{
+	margin: 40px 0;
+}
+.safe-server li{
+	float: left;
+	width: 20%;
+	padding-left: 50px;
+}
+.safe-server-icon{
+	width: 60px;
+	height: 60px;
+	font-size: 36px;
+	color: #FF2D52;
+	line-height: 60px;
+	text-align: center;
+	background: url(../img/circle.png);
+}
+.safe-server-cont{
+	padding: 10px 0;
+	padding-left: 70px;
+}
+.server-details{
+	height: 120px;
+}
+.server-details-list li{
+	padding-right: 132px;
+	float: left;
+}
+.contact{
+	width: 245px;
+	height: 100%;
+	border-left: 1px solid #dbdbdb;
+}
+.footer-bottom{
+	height: 60px;
+	line-height: 60px;
+	background: #343434;
+}
+.footer-bottom img{
+	vertical-align: middle;
+}
+
+/*侧边栏样式开始*/
+.aside{
+	position: fixed;
+	width: 36px;
+	background: #535353;
+	top: 0;
+	bottom: 0;
+	right: 0;
+}
+.aside-panel{
+	height: 100%;
+	width: 100%;
+	background: #535353;
+	position: relative;
+	z-index: 10;
+}
+.aside-bar{
+	position: absolute;
+	top: 40%;
+	bottom: 0;
+	width: 100%;
+}
+.aside-bar-lists li{
+	position: relative;
+	text-align: center;
+	padding: 8px 0;
+}
+.aside-bar-lists li .icon-user{
+	font-size: 20px;
+}
+.aside-bar-lists li:hover{
+	background: #FF2D52;
+}
+.aside-bar-lists li:hover .tooltip-bar{
+	display: block;
+	right: 35px;
+	
+}
+.tooltip-bar{
+	background: #EC193E;
+	min-width: 70px;
+	color: #FFFFFF;
+	position: absolute;
+	right: 45px;
+	top: 0;
+	min-height: 39px;
+	line-height: 39px;
+	display: none;
+	/*transition: all 0.3s;*/
+	/*
+	 * 动画过渡  动画过渡的时间 以及延缓时间
+	 * transition:运动的元素  运动的时间  运动的模式  延缓时间
+	 * */
+}
+.aside-slide{
+	position: absolute;
+	height: 100%;
+	width: 200px;
+	top: 0;
+	background: darksalmon;
+	right: 35px;
+}
+.aside-bar-lists li:hover .tooltip-bar{
+	display: block;
+	right: 35px;	
+}
+.aside-bar-lists li:hover .tooltip-bar-code{
+	display: block;
+	right: 35px;
+}
+.tooltip-bar-code{
+	background: #EC193E;
+	min-width: 172px;
+	color: #FFFFFF;
+	position: absolute;
+	right: 45px;
+	top: 0;
+	display: none;
+	bottom: 0;
+	top: auto;
+}
+.code{
+	font-size: 145px;
+}
+
+.slide-bar-bottom{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #535353;
+}
+/*侧边栏样式结束*/

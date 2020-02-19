@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录注册</title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="login-font/iconfont.css"/>
+	</head>
+	
+	<body>
+		<!--顶部导航-->
+		<div class="top-nav bg-gray">
+			<!--顶部导航内容开始-->
+			<div class="content clearfix margin-5-t">
+				<div class="fl">
+					<a href="#">设为首页</a>
+					<span class="margin-5-lr">|</span>
+					<a href="#">收藏本站</a>
+				</div>
+				<div class="fr">
+					<a href="#">路人甲</a>                                    
+					<span class="margin-5-lr">|</span>
+					<a href="#">退出登录</a>
+					<span class="margin-5-lr">|</span>
+					<a href="#">我的订单</a>
+				</div>
+			</div>
+			
+		</div>
+		<!--顶部内容结束-->
+		<div class="header content  padding-25-t clearfix">
+		<!--logo-->
+		<img src="img/logo.png" class="fl"/>
+		</div>
+		<!--banner开始-->
+		<div class="banner-img">
+			<img src="img/banner03.PNG"/>
+			<div class="resiget content">
+				<!--登录 start-->
+				<div class="login">
+					<!--头部-->
+					<div class="login-top clearfix margin-15-b">
+						<a href="" class="fl font-20">登录</a>
+						<a href="" class="fr text-main">立即注册 <span class="bg-main text-white margin-5-l">></span></a>
+					</div>
+					<!--提示-->
+					<div class="login-tootip margin-15-b"><span class="iconfont icon-tishi text-main font-14"></span>公共场合不建议登录，以防账号丢失</div>
+					
+					<!--用户名和密码输入框 start-->
+					<div class="user">
+						<span class="iconfont icon-yonghu padding-10-lr"></span>
+						<input type="text" class="username padding-10-l" placeholder="请输入您的手机号/邮箱/用户名" />		
+					</div>
+					<div class="user">
+						<span class="iconfont icon-mima padding-10-lr"></span>
+						<input type="text" class="username padding-10-l" placeholder="请输入您的密码" />		
+					</div>
+					<!--用户名和密码输入框 end-->
+					<!--自动登录和忘记密码 start-->
+					<div class="self-login clearfix margin-15-b">
+						<input type="checkbox"/>自动登录
+						<a href="" class="fr">忘记密码 ？</a>
+					</div>
+					<!--自动登录和忘记密码 end-->
+					<a href="" class="login-btn bg-main text-white font-20 margin-15-b">登 录</a>
+					<div class="three">
+						使用第三方登录：<a class="iconfont icon-qq"></a> 
+						<a class="iconfont icon-weixin margin-10-lr"></a> 
+						<a class="iconfont icon-weibo"></a> 
+					</div>
+				</div>
+				<!--登录 end-->
+				
+				<!--注册 start-->
+				<form class="validateform">
+				<div class="register">
+					<!--头部-->
+					<div class="register-top clearfix margin-15-b">
+						<a href="" class="fl font-20">注册用户</a>
+						<a class="denglu fr"><span class="text-black">已有账号？</span>立即登录 </a>
+					</div>
+					<!--提示-->
+					<!--<div class="login-tootip"><span class="iconfont icon-tishi text-main font-14"></span>公共场合不建议登录，以防账号丢失</div>-->
+					<div class="user-phone">
+						<span class="iconfont icon-shoujihao padding-10-lr"></span>
+						<input type="text" name="email" class="username padding-10-l" placeholder="请输入您的手机号/邮箱/用户名" />		
+					</div>
+					<!--<div class="user-phone">
+						<span class="iconfont icon-shoujihao padding-10-lr"></span>
+						<input type="text" name="mobile" class="username padding-10-l" placeholder="请输入您的手机号" />		
+					</div>-->
+					<!--建议使用常用手机-->
+					<div class="suggest-phone padding-5-tb">
+						<span class="iconfont icon-tousujianyi padding-10-lr"></span>
+						建议使用常用手机
+					</div>
+					<!--请输入验证码-->
+					<div class="verify clearfix margin-15-b">
+						<div class="s-verify fl">
+							<span class="iconfont icon-yanzhengma padding-5"></span>
+							<input type="text" placeholder="请输入验证码"/>
+						</div>
+						<a href="javascript:;" class="fr verify-btn bg-main text-center text-white get-code">获取验证码</a>
+					</div>
+					
+					<!--用户名和密码输入框 start-->
+					<div class="user">
+						<span class="iconfont icon-mima padding-10-lr"></span>
+						<input name="password" type="text" class="username padding-10-l" placeholder="请输入登录密码，最少6位"/>		
+					</div>
+					<div class="user">
+						<span class="iconfont icon-mima padding-10-lr"></span>
+						<input name="repassword" type="text" class="username padding-10-l" placeholder="确认密码" />		
+					</div>
+					<!--用户名和密码输入框 end-->
+					<!--自动登录和忘记密码 start-->
+					<div class="self-login clearfix margin-15-b">
+						<input type="checkbox"/>我已同意并阅读<span class="text-main">《洋货码头用户注册协议》</span>
+					</div>
+					<!--自动登录和忘记密码 end-->
+					<a class="login-btn bg-main text-white font-20 margin-20-t">立即注册</a>
+				</div>
+				</form>	
+				<!--注册 end-->
+			</div>
+		</div>
+		<!--banner结束-->
+		<div class="footer">
+		 	<div class="footer-top">
+		 		<ul class="safe-server clearfix">
+		 			<li>
+		 				<span class="fl safe-server-icon">正</span>
+		 				<div class="safe-server-cont">
+		 					<h3 class="font-14">正品保障</h3>
+		 					<p>100%正品商城</p>
+		 				</div>
+		 			</li>
+		 			<li>
+		 				<span class="fl safe-server-icon">正</span>
+		 				<div class="safe-server-cont">
+		 					<h3 class="font-14">正品保障</h3>
+		 					<p>100%正品商城</p>
+		 				</div>
+		 			</li>
+		 			<li>
+		 				<span class="fl safe-server-icon">正</span>
+		 				<div class="safe-server-cont">
+		 					<h3 class="font-14">正品保障</h3>
+		 					<p>100%正品商城</p>
+		 				</div>
+		 			</li>
+		 			<li>
+		 				<span class="fl safe-server-icon">正</span>
+		 				<div class="safe-server-cont">
+		 					<h3 class="font-14">正品保障</h3>
+		 					<p>100%正品商城</p>
+		 				</div>
+		 			</li>
+		 			<li>
+		 				<span class="fl safe-server-icon">正</span>
+		 				<div class="safe-server-cont">
+		 					<h3 class="font-14">正品保障</h3>
+		 					<p>100%正品商城</p>
+		 				</div>
+		 			</li>
+		 		</ul>
+		 		
+		 		<div class="server-details">
+		 			<div class="fr contact text-center font-14">
+		 				<p class="font-24 text-black">400-829-8366</p>
+		 				<p class="margin-5-t">周一至周日 8:00-18:00 </p>
+		 				<p class="margin-5-t">全国统一服务热线</p>
+		 			</div>
+		 			<ul class="server-details-list">
+		 				<li class="margin-15-l">
+		 					<h3 class="margin-10-b">购物指南</h3>
+		 					<p class="margin-5-t">购物流程</p>
+		 					<p class="margin-5-t">发票制度</p>
+		 					<p class="margin-5-t">账户管理</p>
+		 				</li>
+		 				<li class="margin-15-l">
+		 					<h3 class="margin-10-b">购物指南</h3>
+		 					<p class="margin-5-t">购物流程</p>
+		 					<p class="margin-5-t">发票制度</p>
+		 				</li>
+		 				<li class="margin-15-l">
+		 					<h3 class="margin-10-b">购物指南</h3>
+		 					<p class="margin-5-t">购物流程</p>
+		 					<p class="margin-5-t">发票制度</p>
+		 				</li>
+		 				<li class="margin-15-l">
+		 					<h3 class="margin-10-b">购物指南</h3>
+		 					<p class="margin-5-t">购物流程</p>
+		 					<p class="margin-5-t">发票制度</p>
+		 				</li>
+		 				<li class="margin-15-l fl">
+		 					<h3 class="margin-10-b">购物指南</h3>
+		 					<p class="margin-5-t">购物流程</p>
+		 					<p class="margin-5-t">发票制度</p>
+		 					<p class="margin-5-t">账户管理</p>
+		 				</li>
+		 			</ul>
+		 		</div>
+		 	</div>
+		 		
+		 	<div class="footer-bottom">
+		 		<div class="content">
+		 			<img src="img/footone.png"/>
+		 			<img src="img/footone.png"/>
+		 			<span class="text-white margin-10-l">版权所有： 西安国际陆港电子商贸有限公司&nbsp; &nbsp;&nbsp;陕ICP备： 15013404号</span>
+		 		</div>
+		 	</div>
+		</div>
+		 	<!--底部结束-->
+	</body>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/login.js"></script>
+	<script>
+		$.extend($.validator,{
+			messages:{
+				required:"该字段不能为空",
+				remote:"please fix this field",//远程，发送请求判断
+				email:"请输入正确的邮箱",
+				url:"请输入正确的地址",
+				date: "Please enter a valid date.",
+				dateISO: "Please enter a valid date (ISO).",
+				number: "Please enter a valid number.",
+				digits: "Please enter only digits.",
+				equalTo: "密码不一致",
+				maxlength: $.validator.format( "Please enter no more than {0} characters." ),
+				minlength: $.validator.format( "Please enter at least {0} characters." ),
+				rangelength: $.validator.format( "请输入6-18位字符" ),
+				range: $.validator.format( "Please enter a value between {0} and {1}." ),
+				max: $.validator.format( "Please enter a value less than or equal to {0}." ),
+				min: $.validator.format( "Please enter a value greater than or equal to {0}." ),
+				step: $.validator.format( "Please enter a multiple of {0}." )
+			}
+		});
+		$(".validateform").validate({
+			//验证规则
+			rules:{
+				email:{
+					//该邮箱必填
+					required:true,
+					email:true
+				},
+				password:{
+					required:true,
+					rangelength:[6,18]
+				},
+				repassword:{
+					equalTo:$("[name=password]")
+				},
+				mobile:{
+					required:true,
+					mobile:true
+				}
+			},
+			//定义错误信息
+			messages:{
+				email:{
+					required:"邮箱不能为空"
+				}
+			}
+		})
+		//$.validator.addMethod(验证名字,验证方法，验证错误信息) 自定义验证
+		$.validator.addMethod("mobile",function(value,element){
+			var reg=/^1[356789]\d{9}$/
+			return reg.test(value)
+//			if(reg.test(value)){
+//				return true
+//			}
+//			return false;
+		},"请输入手机号")
+	</script>
+	<script src="js/login.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<script src="js/reg.js"></script>
+</html>

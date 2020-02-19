@@ -1,0 +1,55 @@
+/*底部样式开始*/
+.footer{
+	border-top:1px solid #FF2D52;
+}
+.safety-server{
+	padding: 40px;
+}
+.safety-server li{
+	width: 20%;
+	float: left;
+	padding-left: 40px;
+}
+.safety-server-icon{
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 36px;
+	text-align: center;
+	color: #FF2D52;
+	background: url(../img/icon-circle.png) no-repeat;
+}
+.safety-server-text{
+	padding: 10px 0;
+	text-align: left;
+	padding-left: 70px;
+}
+.server-details{
+	height: 120px;
+	margin-bottom: 46px;
+}
+
+.server-details .server-details-lists li{
+	width: 15%;
+	float: left;
+}
+.server-details .server-details-lists li:last-child{
+	padding-right: 50px;
+}
+.server-details .server-details-lists li p{
+	margin-top: 10px;
+}
+/*底部服务热线*/
+.contact{
+	width: 240px;
+	height: 100%;
+	border-left: 1px solid #dbdbdb;
+}
+/*底部版权部分*/
+.footer-bottom{
+	line-height: 60px;
+	background: #343434;
+}
+.footer-bottom img{
+	vertical-align: middle;/*设置图片和文字对齐*/
+}
